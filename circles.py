@@ -51,4 +51,4 @@ for x in range(0,int(screen_x/2),step):
               color_select = 0
 
 epd.display(epd.getbuffer(Blackimage),epd.getbuffer(Redimage))
-epd.EPD_Sleep()
+epd.sleep()
